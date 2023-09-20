@@ -1,0 +1,17 @@
+span {
+  color: red;
+  font-style: italic;
+  display: none;
+}
+
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+.item {
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
